@@ -1,6 +1,6 @@
 # Site settings
 title: "Apoorva Honnegowda Roopa"
-description: "A resume template for Jekyll and GitHub Pages sites."
+description: "AI/ML & GenAI Developer and Trainer"
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Apoorva Honnegowda Roopa"
-resume_title:                   "AI/ML and GenAI Developer & Trainer"
+resume_title:                   "AI/ML & GenAI Developer and Trainer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "apoorva@webinarpark.com"
