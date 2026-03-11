@@ -20,11 +20,20 @@
 
 .page-header { padding: 1.5rem 0;
 
+  // .avatar {
+  //   width: 95px;
+  //   max-width: 100%;
+  //   overflow: hidden;
+  //   @include border-radius(100px);
+  //   margin: 0 auto;
+  //   display: block;
+  // }
+
   .avatar {
-    width: 95px;
-    max-width: 100%;
+    width: 300px;
+    max-width: 150%;
     overflow: hidden;
-    @include border-radius(100px);
+    @include border-radius(20px);
     margin: 0 auto;
     display: block;
   }
@@ -70,6 +79,7 @@
   }
 
   .executive-summary {
+    text-align: justify;
     @include media_larger_than_mobile { font-size: 1.125rem; }
   }
 }
@@ -155,6 +165,10 @@
     }
   }
 
+  .education-year {
+    font-size: 0.9rem;
+  }
+
   .resume-item-title,
   .resume-item-details,
   .resume-item-copy,
@@ -171,7 +185,18 @@
     }
   }
 
-  .resume-item-copy { margin: .75rem 0 0; }
+  .resume-item-copy { 
+    margin: .75rem 0 0;
+    text-align: justify;
+    hyphens: auto;
+   }
+
+  .resume-item-list{
+    text-align: justify;
+    hyphens: auto;
+    li 
+    { margin-bottom: .5rem; }
+  }
 }
 
 // footer styles
@@ -231,4 +256,65 @@
       }
     }
   }
+}
+
+// .clients {
+//   text-align: center;
+//   padding: 40px 20px;
+// }
+
+// .client-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+//   gap: 20px;
+//   align-items: center;
+//   justify-items: center; /* centers logos horizontally */
+//   padding: 20px 0;
+// }
+
+// .client-grid img {
+//   max-width: 100%;
+//   height: auto;
+//   object-fit: contain;
+//   transition: transform 0.3s ease;
+// }
+
+// .client-grid img:hover {
+//   transform: scale(1.05); /* subtle zoom on hover */
+// }
+
+.clients {
+  text-align: center;
+  padding: 10px 10px;   /* reduced vertical padding */
+  margin-top: 0;        /* remove extra space above section */
+}
+
+.clients h3 {
+  font-size: 1.25rem;    /* larger heading font */
+  margin-top: 10px;        /* no extra space above heading */
+  margin-bottom: 15px;  /* tighter space below heading */
+}
+
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* bigger cells */
+  gap: 20px;            /* spacing between logos */
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.client-grid img {
+  max-width: 140px;     /* increased logo size */
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.client-grid img:hover {
+  transform: scale(1.05); /* subtle zoom on hover */
+}
+
+.cdac-logo {
+  width: 68%;   /* smaller size just for CDAC */
 }
