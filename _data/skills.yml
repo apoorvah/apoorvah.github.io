@@ -1,12 +1,21 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+# GenAI
+- skill: Generative AI Tools & Frameworks
+  description: LangGraph, LangChain, LangSmith, LangWatch, n8n, Ollama, Prompt Engineering, Midjourney, Claude, GPT
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+# Core AI/ML Techniques
+- skill: AI/ML Techniques
+  description: GAN, CNN, LSTM, Transformers, Deep Nets, Reinforcement Learning, LLM
+
+# Programming Languages
+- skill: Programming
+  description: Python, Java, MatLab, R, Julia, Rust, C++, SQL
+
+# Cloud & Data Platforms
+- skill: Cloud Platforms
+  description: AWS, Azure, GCP, Databricks, Snowflake, Hugging Face
+
+# Frameworks & Tools
+- skill: Frameworks & Tools
+  description: PyTorch, Streamlit, Gradio, Flask, Unreal Engine, PowerBI, Tableau, PySpark, KNIME, Rasa, Dialogflow
